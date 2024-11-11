@@ -1,0 +1,30 @@
+<!-- item_book.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/thumbnailImageView"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/image"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="책 제목"
+        android:paddingStart="16dp"/>
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="책 저자"
+        android:paddingStart="16dp"/>
+
+</LinearLayout>
